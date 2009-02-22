@@ -1,0 +1,13 @@
+Memcheck
+========
+
+Rails plugin to help with tracking down memory leaks, with a few caveats.
+ * this plugin will only work with *nix type operating systems as it relies on the output of "ps"
+ * this plugin runs garbage collection after every controller action, so it is only intended for diagnostic purposes
+
+Example
+=======
+
+Grep the log file for MemCheck to see the results.
+
+Copyright (c) 2009 Michael Cowden (xdotcommer), released under the MIT license
