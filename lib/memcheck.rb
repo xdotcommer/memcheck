@@ -2,7 +2,7 @@
 
 module Memcheck
   def self.included(base)
-    base.around_filter do |controller, action|
+    base.prepend_around_filter do |controller, action|
       pre_memory = self.get_memory
       action.call
       self.free_memory
