@@ -10,7 +10,7 @@ More Information
 
 Grep the log file for MemCheck to see the results.
 
-See [http://xdotcommer.wordpress.com/2009/03/03/tracking-down-a-memory-leak-performance-issues-in-rails this blog post] for more details.
+See http://xdotcommer.wordpress.com/2009/03/03/tracking-down-a-memory-leak-performance-issues-in-rails for more details.
 
 
 Copyright (c) 2009 Michael Cowden (xdotcommer), released under the MIT license
